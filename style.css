@@ -71,10 +71,16 @@ nav {
     view-transition-name: navLink-5;
 } */
 
-::view-transition-group (activeNavTab) {
+/* ::view-transition-group (activeNavTab) {
     animation-duration: 500s;
     /* animation-timing-function: ease-in-out; */
+} */
+
+.view-transition-group.activeNavTab {
+    transition-duration: 500ms; /* Adjusted to milliseconds */
+    transition-timing-function: ease-in-out;
 }
+
 
 .nav-list li.active::before,
 .nav-list li.active::after {
