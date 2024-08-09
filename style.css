@@ -77,7 +77,7 @@ nav {
 } */
 
 .view-transition-group.activeNavTab {
-    transition-duration: 500ms; /* Adjusted to milliseconds */
+    transition-duration: 500s; /* Adjusted to milliseconds */
     transition-timing-function: ease-in-out;
 }
 
